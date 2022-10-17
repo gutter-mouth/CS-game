@@ -1,0 +1,1 @@
+export {HiddenPictureComponent} from "./HiddenPictureComponent" 
