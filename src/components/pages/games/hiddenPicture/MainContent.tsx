@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Box, CardMedia, Grid, Typography, Container, TextField, Stack, Button } from "@mui/material";
-import { SubmitHandler, useForm } from "react-hook-form"
+import { useForm } from "react-hook-form"
 
 export const MainContent = () => {
     const { register, handleSubmit } = useForm();
@@ -30,6 +30,24 @@ export const MainContent = () => {
 
     return (
         <>
+            <Box>
+                <Typography
+                    variant="h4"
+                    align="center"
+                    marginY="40px"
+                >
+                    かくしえクイズ
+                </Typography>
+            </Box>
+            <Box>
+                <Typography
+                    variant="body1"
+                    align="center"
+                    marginY="40px"
+                >
+                    ブロックのうしろのえをあててみよう
+                </Typography>
+            </Box>
             <Container
                 sx={{
                     margin: "auto",
