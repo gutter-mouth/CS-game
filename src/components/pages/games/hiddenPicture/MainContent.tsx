@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Box, CardMedia, Grid, Typography, Container, TextField, Stack, Button } from "@mui/material";
-import { SubmitHandler, useForm } from "react-hook-form"
+import { useForm } from "react-hook-form"
 
 export const MainContent = () => {
     const { register, handleSubmit } = useForm();
