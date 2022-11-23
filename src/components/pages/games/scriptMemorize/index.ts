@@ -1,0 +1,1 @@
+export {ScriptMemorizeComponent} from "./ScriptMemorizeComponent" 

@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "path": "pathpida --enableStatic  -o ./src/utils/pathpida"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.9",
@@ -16,7 +18,9 @@
     "i": "^0.3.7",
     "next": "12.3.1",
     "npm": "^8.19.2",
+    "pathpida": "^0.19.3",
     "react": "18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.37.0"
   },
